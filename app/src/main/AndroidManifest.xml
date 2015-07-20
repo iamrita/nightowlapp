@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tayz.amrita.com.cuhack" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MotionActivity"
+            android:label="@string/title_activity_motion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TableActivity"
+            android:label="@string/title_activity_table" >
+        </activity>
+        <activity
+            android:name=".DimTimeScreen"
+            android:label="@string/title_activity_dim_time_screen" >
+        </activity>
+        <activity
+            android:name=".Alarm"
+            android:label="@string/title_activity_alarm" >
+        </activity>
+        <activity
+            android:name=".PlaceHolder"
+            android:label="@string/title_activity_place_holder" >
+        </activity>
+        <activity
+            android:name=".PlaceHolderChecklist"
+            android:label="@string/title_activity_place_holder_checklist" >
+        </activity>
+        <activity
+            android:name=".DetectionType"
+            android:label="@string/title_activity_detection_type" >
+        </activity>
+        <activity
+            android:name=".SpeechActivity"
+            android:label="@string/title_activity_speech" >
+        </activity>
+        <activity
+            android:name=".CheckList"
+            android:label="@string/title_activity_check_list" >
+        </activity>
+        <activity
+            android:name=".WalkActivity"
+            android:label="@string/title_activity_walk" >
+        </activity>
+        <activity
+            android:name=".ResumePlaceHolder"
+            android:label="@string/title_activity_resume_place_holder" >
+        </activity>
+    </application>
+
+</manifest>

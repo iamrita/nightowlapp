@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CUHack</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_motion">MotionActivity</string>
+    <string name="title_activity_table">TableActivity</string>
+    <string name="title_activity_dim_time_screen">DimTimeScreen</string>
+    <string name="title_activity_alarm">Alarm</string>
+    <string name="title_activity_place_holder">PlaceHolder</string>
+    <string name="title_activity_place_holder_checklist">PlaceHolderChecklist</string>
+    <string name="title_activity_detection_type">DetectionType</string>
+    <string name="title_activity_speech">SpeechActivity</string>
+    <string name="title_activity_check_list">CheckList</string>
+    <string name="title_activity_walk">WalkActivity</string>
+    <string name="title_activity_resume_place_holder">ResumePlaceHolder</string>
+
+</resources>
